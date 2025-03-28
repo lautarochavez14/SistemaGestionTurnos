@@ -1,7 +1,7 @@
-#Tabla de contenidos
+
 - [Introduccion](#introduccion)
 - [Fundamentos](#Fundamentos)
-- [requisitos iniciales](#Requisitos)
+- [Requisitos iniciales](#Requisitos)
 
 # Introducción(#Introduccion)
 
@@ -29,9 +29,13 @@ Permite que una misma acción tenga diferentes comportamientos según el objeto.
 Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un sonido diferente (perro: ladrido, gato: maullido).
 
 
-## Requisitos iniciales del sistema (#Requisitos)
-Registro de usuarios: El sistema debe permitir la creación y gestión de usuarios.
-Gestión de turnos: Los usuarios deben poder solicitar, cancelar y reprogramar turnos.
-Notificaciones: El sistema debe enviar recordatorios de turnos vía correo o mensaje.
-Historial de turnos: Se debe permitir consultar turnos pasados.
-Control de acceso: Solo usuarios registrados pueden acceder a ciertas funciones.
+# Requisitos iniciales del sistema (#Requisitos)
+-Registro de usuarios: El sistema debe permitir la creación y gestión de usuarios.
+
+-Gestión de turnos: Los usuarios deben poder solicitar, cancelar y reprogramar turnos.
+
+-Notificaciones: El sistema debe enviar recordatorios de turnos vía correo o mensaje.
+
+-Historial de turnos: Se debe permitir consultar turnos pasados.
+
+-Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
