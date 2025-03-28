@@ -2,6 +2,7 @@
 - [Introduccion](#introduccion)
 - [Fundamentos](#Fundamentos)
 - [Requisitos iniciales](#Requisitos)
+- [Boceto inicial](#Boceto)
 
 # Introducción(#Introduccion)
 
@@ -39,3 +40,6 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 -Historial de turnos: Se debe permitir consultar turnos pasados.
 
 -Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
+
+# Boceto inicial del diseño de clases (#Boceto)
+
