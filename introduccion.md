@@ -43,7 +43,7 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
 # Casos de uso
  ## Caso 1
- ### Registro de usuario
+   ### Registro de usuario
  - Actores involucrados: Usuario y sistema
  - Descripción breve: Permite a un nuevo usuario crear una cuenta en la plataforma.
 - Flujo principal de eventos
@@ -56,7 +56,7 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Postcondiciones: El usuario tiene una cuenta activa en el sistema.
 
 ## Caso 2
-### Inicio de Sesión
+  ### Inicio de Sesión
 - Actores involucrados: Usuario, Sistema
 - Descripción breve: Permite a un usuario registrado acceder a su cuenta.
 - Flujo principal de eventos:
@@ -68,7 +68,7 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Postcondiciones: El usuario está autenticado y tiene acceso a su cuenta.
 
 ## Caso 3
-### Recuperación de Contraseña
+  ### Recuperación de Contraseña
 - Actores involucrados: Usuario, Sistema.
 - Descripción breve: Permite a un usuario recuperar su contraseña en caso de olvido.
 - Flujo principal de eventos:
@@ -79,7 +79,7 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Precondiciones: El usuario debe haber registrado su correo en la cuenta.
 - Postcondiciones: El usuario ha restablecido su contraseña y puede iniciar sesión.
 
-  ## Caso 4
+ ## Caso 4
   ### Realizar una Compra
 - Nombre del caso de uso: Realizar una Compra
 - Actores involucrados: Usuario, Sistema, Proveedor.
@@ -94,7 +94,7 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Postcondiciones: La compra se ha completado y el usuario recibe la confirmación.
 
 ## Caso 5
-### Cierre de Sesión
+  ### Cierre de Sesión
 - Actores involucrados: Usuario, Sistema.
 - Descripción breve: Permite a un usuario cerrar su sesión en la plataforma.
 - Flujo principal de eventos:
