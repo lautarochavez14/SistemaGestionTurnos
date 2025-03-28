@@ -2,6 +2,7 @@
 - [Introduccion](#introduccion)
 - [Fundamentos](#Fundamentos)
 - [Requisitos iniciales](#Requisitos)
+- [Casos de uso](#casos)
 - [Boceto inicial](#Boceto)
 
 # Introducción(#Introduccion)
@@ -31,15 +32,77 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 
 
 # Requisitos iniciales del sistema (#Requisitos)
--Registro de usuarios: El sistema debe permitir la creación y gestión de usuarios.
+- Registro de usuarios: El sistema debe permitir la creación y gestión de usuarios.
 
--Gestión de turnos: Los usuarios deben poder solicitar, cancelar y reprogramar turnos.
+- Gestión de turnos: Los usuarios deben poder solicitar, cancelar y reprogramar turnos.
 
--Notificaciones: El sistema debe enviar recordatorios de turnos vía correo o mensaje.
+- Notificaciones: El sistema debe enviar recordatorios de turnos vía correo o mensaje.
 
--Historial de turnos: Se debe permitir consultar turnos pasados.
+- Historial de turnos: Se debe permitir consultar turnos pasados.
 
--Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
+- Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
+# Casos de uso
+ ## Caso 1
+ ### Registro de usuario
+ - Actores involucrados: Usuario y sistema
+ - Descripción breve: Permite a un nuevo usuario crear una cuenta en la plataforma.
+- Flujo principal de eventos
+1. El usuario accede a la página de registro.
+2. El usuario ingresa su información personal (nombre, correo, contraseña).
+3. El sistema valida la información ingresada.
+4. El sistema crea una nueva cuenta y envía un correo de confirmación.
+5. El usuario recibe el correo y confirma su registro.
+- Precondiciones: El usuario no debe tener una cuenta existente.
+- Postcondiciones: El usuario tiene una cuenta activa en el sistema.
 
+## Caso 2
+### Inicio de Sesión
+- Actores involucrados: Usuario, Sistema
+- Descripción breve: Permite a un usuario registrado acceder a su cuenta.
+- Flujo principal de eventos:
+1. El usuario accede a la página de inicio de sesión.
+2. El usuario ingresa su correo y contraseña.
+3. El sistema valida las credenciales.
+4. El sistema redirige al usuario a su panel de control.
+- Precondiciones: El usuario debe tener una cuenta registrada.
+- Postcondiciones: El usuario está autenticado y tiene acceso a su cuenta.
+
+## Caso 3
+### Recuperación de Contraseña
+- Actores involucrados: Usuario, Sistema.
+- Descripción breve: Permite a un usuario recuperar su contraseña en caso de olvido.
+- Flujo principal de eventos:
+1. El usuario accede a la opción de "Olvidé mi contraseña".
+2. El usuario ingresa su correo electrónico.
+3. El sistema envía un enlace de recuperación al correo proporcionado.
+4. El usuario sigue el enlace y establece una nueva contraseña.
+- Precondiciones: El usuario debe haber registrado su correo en la cuenta.
+- Postcondiciones: El usuario ha restablecido su contraseña y puede iniciar sesión.
+
+  ## Caso 4
+  ### Realizar una Compra
+- Nombre del caso de uso: Realizar una Compra
+- Actores involucrados: Usuario, Sistema, Proveedor.
+- Descripción breve: Permite a un usuario realizar una compra de productos o servicios.
+- Flujo principal de eventos:
+1. El usuario navega por el catálogo de productos.
+2. El usuario selecciona un producto y lo añade al carrito.
+3. El usuario procede al pago.
+4. El sistema procesa el pago y confirma la compra.
+5. El sistema envía un recibo al usuario.
+- Precondiciones: El usuario debe estar autenticado y tener un método de pago válido.
+- Postcondiciones: La compra se ha completado y el usuario recibe la confirmación.
+
+## Caso 5
+### Cierre de Sesión
+- Actores involucrados: Usuario, Sistema.
+- Descripción breve: Permite a un usuario cerrar su sesión en la plataforma.
+- Flujo principal de eventos:
+1. El usuario selecciona la opción de cerrar sesión.
+2. El sistema finaliza la sesión del usuario.
+3. El sistema redirige al usuario a la página de inicio.
+- Precondiciones: El usuario debe estar autenticado.
+- Postcondiciones: El usuario ha cerrado sesión y no tiene acceso a su cuenta hasta que inicie sesión nuevamente
+  
 # Boceto inicial del diseño de clases (#Boceto)
 
