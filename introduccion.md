@@ -80,15 +80,15 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Postcondiciones: El usuario ha restablecido su contraseña y puede iniciar sesión.
 
  ## Caso 4
-  ### Realizar una Compra
-- Nombre del caso de uso: Realizar una Compra
+  ### Pedir turno
+- Nombre del caso de uso: Pedir turno
 - Actores involucrados: Usuario, Sistema, Proveedor.
-- Descripción breve: Permite a un usuario realizar una compra de productos o servicios.
+- Descripción breve: Permite a un usuario pedir un turno dentro de las especialidades.
 - Flujo principal de eventos:
-1. El usuario navega por el catálogo de productos.
-2. El usuario selecciona un producto y lo añade al carrito.
+1. El usuario navega por el catálogo especialidades.
+2. El usuario selecciona una especialidad.
 3. El usuario procede al pago.
-4. El sistema procesa el pago y confirma la compra.
+4. El sistema procesa el pago y confirma el turno.
 5. El sistema envía un recibo al usuario.
 - Precondiciones: El usuario debe estar autenticado y tener un método de pago válido.
 - Postcondiciones: La compra se ha completado y el usuario recibe la confirmación.
