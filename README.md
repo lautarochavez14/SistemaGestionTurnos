@@ -6,7 +6,7 @@
 ### Diseño orientado a objetos - Tecnicatura en programacion
 ### Profesor: Lic.Matias Velasquez
 ### 2025
-
+### Matricula: 151222
 # Introduccion
 
 -Este proyecto es un sistema de gestión de turnos basado en el paradigma de Programación Orientada a Objetos (POO).
