@@ -106,5 +106,5 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
   
 # Boceto inicial del diseño de clases (#Boceto)
 
-https://drive.google.com/file/d/1o6qPzOSaIVrl_R35Emcjz081xn35yq5y/view?usp=drive_link
+https://app.diagrams.net/#G1o6qPzOSaIVrl_R35Emcjz081xn35yq5y#%7B%22pageId%22%3A%22rC8SzLmUsXvdWjPywkAq%22%7D
 
