@@ -1,5 +1,5 @@
-ANEXOS
 
-En esta sección se incluyen documentos adicionales sobre el sistema.
+# Anexos
 
-[Introducción](introduccion.md)
+
+[Anexo - Introducción al Diseño Orientado a Objetos](introduccion.md)
