@@ -9,7 +9,7 @@
  
  [Boceto inicial](#Boceto)
 
-# Introducción(#Introduccion)
+ Introducción(#Introduccion)
 
 
 ¿Qué es la Programación Orientada a Objetos (POO)?
