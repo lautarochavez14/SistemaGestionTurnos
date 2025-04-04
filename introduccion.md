@@ -51,59 +51,74 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
 # Casos de uso
  ## Caso 1
-   - Registro de usuario
-     
- - Actores involucrados: Usuario y sistema
- - Descripción breve: Permite a un nuevo usuario crear una cuenta en la plataforma.
-- Flujo principal de eventos
-1. El usuario accede a la página de registro.
-2. El usuario ingresa su información personal (nombre, correo, contraseña).
-3. El sistema valida la información ingresada.
-4. El sistema crea una nueva cuenta y envía un correo de confirmación.
-5. El usuario recibe el correo y confirma su registro.
-- Precondiciones: El usuario no debe tener una cuenta existente.
-- Postcondiciones: El usuario tiene una cuenta activa en el sistema.
+ - Notificaciones de Turno
+   
+Descripción:
+
+- El sistema envía notificaciones a los usuarios sobre sus turnos programados.
+
+ Precondiciones:
+ 
+  - El usuario debe estar registrado en el sistema.
+  - El usuario debe haber proporcionado un medio de contacto (correo electrónico, número de teléfono, etc.).
+  - El turno debe estar programado y confirmado.
+
+ Postcondiciones
+
+   - El usuario recibe una notificación sobre su turno.
+   - Se registra la fecha y hora de la notificación en el sistema.
+
 
 ## Caso 2
- - Inicio de Sesión
-   
-- Actores involucrados: Usuario, Sistema
-- Descripción breve: Permite a un usuario registrado acceder a su cuenta.
-- Flujo principal de eventos:
-1. El usuario accede a la página de inicio de sesión.
-2. El usuario ingresa su correo y contraseña.
-3. El sistema valida las credenciales.
-4. El sistema redirige al usuario a su panel de control.
-- Precondiciones: El usuario debe tener una cuenta registrada.
-- Postcondiciones: El usuario está autenticado y tiene acceso a su cuenta.
+ - Cambio de Turno
+ 
+Descripción:
+ - Un usuario puede solicitar un cambio en su turno programado.
+
+ Precondiciones:
+ 
+  - El usuario debe estar registrado y autenticado en el sistema.
+  - El turno original debe estar confirmado y no debe estar dentro del período de cancelación.
+  - El nuevo turno solicitado debe estar disponible.
+
+ Postcondiciones:
+ 
+  - El turno original se actualiza con la nueva información.
+  - Se envía una notificación al usuario confirmando el cambio de turno.
+  - Se registra el cambio en el historial de turnos del usuario.
 
 ## Caso 3
- - Recuperación de Contraseña
-   
-- Actores involucrados: Usuario, Sistema.
-- Descripción breve: Permite a un usuario recuperar su contraseña en caso de olvido.
-- Flujo principal de eventos:
-1. El usuario accede a la opción de "Olvidé mi contraseña".
-2. El usuario ingresa su correo electrónico.
-3. El sistema envía un enlace de recuperación al correo proporcionado.
-4. El usuario sigue el enlace y establece una nueva contraseña.
-- Precondiciones: El usuario debe haber registrado su correo en la cuenta.
-- Postcondiciones: El usuario ha restablecido su contraseña y puede iniciar sesión.
+
+- Cancelación de Turno
+  
+Descripción:
+
+  - Un usuario puede cancelar un turno programado.
+
+ Precondiciones:
+ 
+  - El usuario debe estar registrado y autenticado en el sistema.
+  - El turno debe estar confirmado y dentro del período de cancelación permitido.
+
+ Postcondiciones:
+ 
+  - El turno se marca como cancelado en el sistema.
+  - Se envía una notificación al usuario confirmando la cancelación.
+  - Se actualiza la disponibilidad del turno en el sistema.
 
  ## Caso 4
   - Pedir turno
-  - 
-- Nombre del caso de uso: Pedir turno
-- Actores involucrados: Usuario, Sistema, Proveedor.
-- Descripción breve: Permite a un usuario pedir un turno dentro de las especialidades.
-- Flujo principal de eventos:
-1. El usuario navega por el catálogo especialidades.
-2. El usuario selecciona una especialidad.
-3. El usuario procede al pago.
-4. El sistema procesa el pago y confirma el turno.
-5. El sistema envía un recibo al usuario.
-- Precondiciones: El usuario debe estar autenticado y tener un método de pago válido.
-- Postcondiciones: La compra se ha completado y el usuario recibe la confirmación.
+  
+ Descripción: 
+ 
+   - Permite a un usuario pedir un turno dentro de las especialidades.
+
+ Precondiciones:
+   - El usuario debe estar autenticado y tener un método de pago válido.
+     
+ Postcondiciones:
+ 
+   - La compra se ha completado y el usuario recibe la confirmación.
 
 ## Caso 5
  - Cierre de Sesión
