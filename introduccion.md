@@ -18,19 +18,23 @@ Es importante porque permite crear software modular, reutilizable y fácil de ma
 
 # Fundamentos de POO (#Fundamentos)
 
-### Abstracción
+- Abstracción:
+  
 Es la capacidad de representar elementos del mundo real en el código.
 Ejemplo: Un "Auto" puede representarse con atributos (marca, modelo) y métodos (arrancar, frenar).
 
-### Encapsulamiento
+- Encapsulamiento:
+  
 Protege los datos de un objeto, permitiendo acceso solo a través de métodos específicos.
 Ejemplo: Un "Cajero Automático" no permite acceso directo al dinero, solo mediante transacciones.
 
-### Herencia
+- Herencia:
+  
 Permite que una clase reutilice características de otra.
 Ejemplo: Un "Auto Deportivo" hereda de la clase "Auto", pero añade características como mayor velocidad.
 
-### Polimorfismo
+- Polimorfismo:
+
 Permite que una misma acción tenga diferentes comportamientos según el objeto.
 Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un sonido diferente (perro: ladrido, gato: maullido).
 
@@ -47,7 +51,8 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Control de acceso:Solo usuarios registrados pueden acceder a ciertas funciones.
 # Casos de uso
  ## Caso 1
-   ### Registro de usuario
+   - Registro de usuario
+     
  - Actores involucrados: Usuario y sistema
  - Descripción breve: Permite a un nuevo usuario crear una cuenta en la plataforma.
 - Flujo principal de eventos
@@ -60,7 +65,8 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Postcondiciones: El usuario tiene una cuenta activa en el sistema.
 
 ## Caso 2
-  ### Inicio de Sesión
+ - Inicio de Sesión
+   
 - Actores involucrados: Usuario, Sistema
 - Descripción breve: Permite a un usuario registrado acceder a su cuenta.
 - Flujo principal de eventos:
@@ -72,7 +78,8 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Postcondiciones: El usuario está autenticado y tiene acceso a su cuenta.
 
 ## Caso 3
-  ### Recuperación de Contraseña
+ - Recuperación de Contraseña
+   
 - Actores involucrados: Usuario, Sistema.
 - Descripción breve: Permite a un usuario recuperar su contraseña en caso de olvido.
 - Flujo principal de eventos:
@@ -84,7 +91,8 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Postcondiciones: El usuario ha restablecido su contraseña y puede iniciar sesión.
 
  ## Caso 4
-  ### Pedir turno
+  - Pedir turno
+  - 
 - Nombre del caso de uso: Pedir turno
 - Actores involucrados: Usuario, Sistema, Proveedor.
 - Descripción breve: Permite a un usuario pedir un turno dentro de las especialidades.
@@ -98,7 +106,8 @@ Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un so
 - Postcondiciones: La compra se ha completado y el usuario recibe la confirmación.
 
 ## Caso 5
-  ### Cierre de Sesión
+ - Cierre de Sesión
+   
 - Actores involucrados: Usuario, Sistema.
 - Descripción breve: Permite a un usuario cerrar su sesión en la plataforma.
 - Flujo principal de eventos:
