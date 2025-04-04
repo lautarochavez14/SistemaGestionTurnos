@@ -9,6 +9,8 @@
  
  [Boceto inicial](#Boceto)
 
+
+
 # Introducción(#Introduccion)
 
 
@@ -121,19 +123,25 @@ Descripción:
    - La compra se ha completado y el usuario recibe la confirmación.
 
 ## Caso 5
- - Cierre de Sesión
+ - Consulta de Turnos
    
-- Actores involucrados: Usuario, Sistema.
-- Descripción breve: Permite a un usuario cerrar su sesión en la plataforma.
-- Flujo principal de eventos:
-1. El usuario selecciona la opción de cerrar sesión.
-2. El sistema finaliza la sesión del usuario.
-3. El sistema redirige al usuario a la página de inicio.
-- Precondiciones: El usuario debe estar autenticado.
-- Postcondiciones: El usuario ha cerrado sesión y no tiene acceso a su cuenta hasta que inicie sesión nuevamente
+Descripción:
+
+  - Un usuario puede consultar sus turnos programados.
+
+ Precondiciones:
+ 
+  - El usuario debe estar registrado y autenticado en el sistema.
+
+ Postcondiciones:
+ 
+  - El sistema muestra una lista de los turnos programados del usuario.
+  - Se registra la consulta en el historial de actividades del usuario.
+
   
 # Boceto inicial del diseño de clases (#Boceto)
 
 ![](boceto.png)
-https://drive.google.com/file/d/1o6qPzOSaIVrl_R35Emcjz081xn35yq5y/view?usp=sharing
+
+
 
