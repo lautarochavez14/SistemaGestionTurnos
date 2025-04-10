@@ -134,6 +134,6 @@ Descripción:
 
 ![](boceto.png)
 
-[Acceder al archivo](https://app.diagrams.net/?src=about)
+[Acceder al archivo](boceto.png)
 
 
