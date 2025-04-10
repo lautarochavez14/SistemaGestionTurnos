@@ -2,14 +2,14 @@
  
 
 
-# Introducción(#Introduccion)
+# Introducción
 
 
 - ¿Qué es el Paradigma Orientado a Objetos (POO)?
 El Paradigma Orientado a Objetos (POO) es un paradigma basado en la organización del código en objetos, que representan entidades del mundo real.
 Es importante porque permite crear software modular, reutilizable y fácil de mantener.
 
-# Fundamentos de POO (#Fundamentos)
+# Fundamentos de POO 
 
 - Abstracción:
   
@@ -32,7 +32,7 @@ Permite que una misma acción tenga diferentes comportamientos según el objeto.
 Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un sonido diferente (perro: ladrido, gato: maullido).
 
 
-# Requisitos iniciales del sistema (#Requisitos)
+# Requisitos iniciales del sistema
 - Registro de usuarios: El sistema debe permitir la creación y gestión de usuarios.
 
 - Gestión de turnos: Los usuarios deben poder solicitar, cancelar y reprogramar turnos.
@@ -130,7 +130,7 @@ Descripción:
   - Se registra la consulta en el historial de actividades del usuario.
 
   
-# Boceto inicial del diseño de clases (#Boceto)
+# Boceto inicial del diseño de clases 
 
 ![](boceto.png)
 
