@@ -134,6 +134,6 @@ Descripción:
 
 ![](boceto.png)
 
-[Acceder al archivo](https://drive.google.com/file/d/1o6qPzOSaIVrl_R35Emcjz081xn35yq5y/view?usp=sharing)
+[Acceder al archivo](https://app.diagrams.net/?src=about)
 
 
