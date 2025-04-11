@@ -13,7 +13,7 @@
 
 # Diagramas y diseños
 
-[Anexos](anexos.md)
+[Introducción al Diseño Orientado a Objetos](introduccion.md)
 
 
 
