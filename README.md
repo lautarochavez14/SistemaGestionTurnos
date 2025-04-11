@@ -13,7 +13,8 @@
 
 # Diagramas y diseños
 
-[Introducción al Diseño Orientado a Objetos](introduccion.md)
+- [Introducción al Diseño Orientado a Objetos](introduccion.md)
 
+- [Diagramas UML](DiagramasUML.md)
 
 
