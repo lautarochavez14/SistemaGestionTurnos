@@ -8,7 +8,12 @@
 
 ### Caso 2: Cambio de turno
 
-
 ![cambio](https://github.com/user-attachments/assets/d13bf0eb-3508-4181-b323-6d32be0833d4)
 
 [Acceder al archivo](https://drive.google.com/file/d/1TrL8PJoK3T2zCxXyYIBYwTrN-qchiu_O/view?usp=sharing)
+
+### Caso 3: Cancelacion de turno
+
+![cancelacion](https://github.com/user-attachments/assets/831fcc51-18fc-4ce1-92de-34615f5cde89)
+
+[Acceder al archivo](https://drive.google.com/file/d/1wbX7jDbjsjvE0gKo-tk1R_HOzColqtuC/view?usp=sharing)
