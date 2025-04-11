@@ -1,4 +1,4 @@
 
 # Diagramas UML
 
-- [Acceder al archivo](boceto.png)
+- [DiagramaUML](boceto.png)
