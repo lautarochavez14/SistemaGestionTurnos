@@ -1,4 +1,4 @@
 
 # Diagramas UML
 
-- [DiagramaUML](boceto.png)
+- [Diagramas de caso de uso](diagramas_de_casos_de_uso.md)
