@@ -32,7 +32,7 @@
 
 ### Descripcion general
 
- -El usuario puede realizar cambios en el turno pedido ingresando al sistema y dirigiendose a "solicitar cambio de turno".
+ - El usuario puede realizar cambios en el turno pedido ingresando al sistema y dirigiendose a "solicitar cambio de turno".
 
 ### Flujo de eventos
 
