@@ -17,3 +17,9 @@
 ![cancelacion](https://github.com/user-attachments/assets/831fcc51-18fc-4ce1-92de-34615f5cde89)
 
 [Acceder al archivo](https://drive.google.com/file/d/1wbX7jDbjsjvE0gKo-tk1R_HOzColqtuC/view?usp=sharing)
+
+### Caso 4: Pedir turno 
+
+![pedirTurno](https://github.com/user-attachments/assets/4ace233f-85a5-41c4-8f7e-f1ef545237bc)
+
+[Acceder al archivo](https://drive.google.com/file/d/1TpvV5n4UW4aIbstco9GTMB1ms3MavY9d/view?usp=sharing)
