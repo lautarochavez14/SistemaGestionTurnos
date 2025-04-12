@@ -23,3 +23,9 @@
 ![pedirTurno](https://github.com/user-attachments/assets/4ace233f-85a5-41c4-8f7e-f1ef545237bc)
 
 [Acceder al archivo](https://drive.google.com/file/d/1TpvV5n4UW4aIbstco9GTMB1ms3MavY9d/view?usp=sharing)
+
+### Caso 5: Consulta de turnos
+
+![consultaturno](https://github.com/user-attachments/assets/dc80caee-b57a-4978-97d7-382e775edff2)
+
+[Acceder al archivo](https://drive.google.com/file/d/1nqOttiwfdONG-leJc0mmtrf7cD0uGnsl/view?usp=sharing)
