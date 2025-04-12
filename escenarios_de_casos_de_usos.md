@@ -57,7 +57,6 @@
  - Se registra el cambio en el historial de turnos del usuario.
 
 
-
-
+![caso 2](https://github.com/user-attachments/assets/db5c9736-9ced-4335-9463-9921047bded6)
 
 
