@@ -18,7 +18,7 @@
 
 ### Caso 3: Cancelacion de turno
 
--El usuario solicita al sistema cancelar el turno programado.
+- El usuario solicita al sistema cancelar el turno programado.
 
 ![cancelacion](https://github.com/user-attachments/assets/831fcc51-18fc-4ce1-92de-34615f5cde89)
 
