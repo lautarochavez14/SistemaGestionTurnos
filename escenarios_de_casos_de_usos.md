@@ -1,1 +1,2 @@
-# Diagramas de casos de uso
+# Escenarios de casos de uso
+
