@@ -5,103 +5,104 @@
  - Las Tarjetas CRC (Clase-Responsabilidad-Colaboración) constituyen una herramienta esencial en el enfoque de la programación orientada a objetos (POO). Se utilizan para identificar y definir las clases principales de un sistema, así como sus responsabilidades y colaboraciones dentro del contexto del sistema.
 
 
-### CRC Caso1: Notificacion
+### Tarjeta CRC Paciente
 
-- Nombre de la clase: Notificacion
+- Nombre de la Clase: Paciente
 
-- Superclase: Sistema
+- Superclase: Persona
 
-- Subclase:--
+- Subclase: -
 
-- Pensamiento del objeto: Tengo la fecha, hora, paciente y medico especialista para armar la notificacion que sera enviada al usuario paciente.
+- Pensamiento del objeto: Sé qué especialista requiero junto a mis datos personales. Necesito ver cuándo y con quién tengo turno. Avisare cuando no pueda asistir. Mis datos pueden cambiar. Quiero recordar mis turnos anteriores.
 
-- Responsabilidades: Conocer la fecha y hora del turno, los datos del usuario y correo.
+- Responsabilidades: Solicitar un turno, Consultar sus turnos programados, Cancelar un turno, Actualizar sus datos personales, Ver el historial de sus consultas.
 
-- Colaboradores: Solicitud de turno
+- Colaboradores: Agenda, Turno, Médico,recepcionista.
 
-- Propiedades: Fecha, hora, idusuario, medico.
+- Propiedad: Nombre, apellido, fechaNacimiento, DNI, direccion,telefono,email.
 
-  ![crc 1](https://github.com/user-attachments/assets/f180b7dc-0665-438b-a16f-443f7a6904e5)
+[Paciente](https://drive.google.com/file/d/1dBI_MhTWrXPuv7pfWTipTFa4K3bT7Woq/view?usp=sharing)
 
+### Tarjeta CRC Medico
 
-### CRC Caso2: Cambio de turno
+- Nombre de la Clase: Médico
 
-- Nombre de la clase: Cambio de turno
+- Superclase: Persona
 
-- Superclase: Sistema
+- Subclase: —
 
-- Subclase: --
+- Pensamiento del objeto: Quiero recordar turnos. Necesito ver mi agenda, registrar observaciones y diagnósticos. Puedo modificar turnos si es necesario. Quiero acceder al historial de consultas de mis pacientes.
 
-- Pensamiento del objeto: Conocer los datos del turno, posibles cambios y datos del usuario.
+- Responsabilidades: Visualizar y gestionar su agenda de turnos,Registrar diagnósticos y observaciones médicas,Acceder al historial clínico de sus pacientes,Modificar o cancelar turnos.
 
-- Responsabilidades: Reconocer fecha y hora del turno a cambiar.
+- Colaboradores: Turno,Paciente,HistoriaClinica,Agenda
 
-- Colaboradores: Solicitud de turno, notificacion
+- Propiedad a la que se referenciará:
 
-- Propiedades: Fecha, hora, idusuario, especialidad medico
+- Nombre, Apellido, especialidad, matricula, Horarios de Atencion
 
-
-![crc2](https://github.com/user-attachments/assets/702596bf-fbe1-474d-97c2-8678e5aea9cf)
-
-
-### CRC Caso3: Cancelar turno
-
-- Nombre de la clase: Cancelar turno
-
-- Superclase: Sistema
-
-- Subclase: Gestion de turno
-
-- Pensamiento del objeto: conocer los datos del turno a cancelar, y notificar la cancelacion del mismo
-
-- Responsabilidades: Cancelar el turno ya pedido y marcarlo como cancelado en la agenda
-
-- Colaboradores: Solicitar turno, notificacion
-
-- Propiedades: turno, usuario, medico, agenda.
+[Medico](https://drive.google.com/file/d/1AuIMTf8kd3Op3kBHrJlsjSicwsYhGy0D/view?usp=sharing)
 
 
-![crc 3](https://github.com/user-attachments/assets/57c23a50-00b0-430c-9d78-9df94ae34fe6)
+### Tarjeta CRC recepcionista
+
+- Nombre de la Clase: Recepcionista
+
+- Superclase: Persona
+
+- Subclase: —
+
+- Pensamiento del objeto: Me encargo de la gestión de la agenda. Registro nuevos pacientes.organizo turnos, cancelo citas si es necesario.Me encargo de asignar turnos.Me encargo de consultar o actualizar los datos de los pacientes.
+
+- Responsabilidades: Registrar nuevos pacientes en el sistema,Asignar turnos a pacientes,Cancelar o reprogramar turnos,Consultar agenda de médicos,Consultar los datos o actualizar de un paciente.
+
+- Colaboradores: Paciente ,Turno , Agenda, Médico , recepcionista
+
+- Propiedad:Nombre , apellido, dni , email ,telefono , direccion
+
+[Rcepcionista](https://drive.google.com/file/d/1bVrFrsV4KK9_MvGskRWXPKmcvkD1dNnq/view?usp=sharing)
 
 
-### CRC Caso4: Pedir turno
 
-- Nombre de la clase: pedir turno
+### Tarjeta CRC turno
 
-- Superclase: Sistema
+- Nombre de la Clase: Turno
 
-- Subclase:--
+- Superclase: —
 
-- Pensamiento del objeto: Debo registrar el turno solicitado con los datos especificos (fecha, hora, medico, especialidad e IDusuario.
+- Subclase: —
 
-- Responsabilidades: Plasmar el turno solicitado sobre la agenda del medico
+- Pensamiento del objeto: Tengo una fecha y una hora asignada,se quien me va a atender , se a quien debo atender, mi estado puede cambiar segun la accion realizada.
 
-- Colaborardores: Consulta de turnos, notificacion
+- Responsabilidades: Conocer su fecha y hora, Conocer el paciente asignado, Conocer el médico asignado, Cambiar su estado.
 
-- Propiedades: Medico, usuario, agenda
+- Colaboradores: Paciente, Médico,Recepcionista.
+
+- Propiedad: fecha, hora, estado, paciente,motivo de cancelacion.
+
+[Turno](https://drive.google.com/file/d/1e1W_-2se2xHq4II7pJSPXqRBKJejI8Yu/view?usp=sharing)
 
 
-![crc 4](https://github.com/user-attachments/assets/d18040b5-f93a-4ec6-abef-4a735300dee6)
+
+### Tarjeta CRC agenda
+
+- Nombre de la Clase: Agenda
+
+- Superclase: —
+
+- Subclase: —
+
+- Pensamiento del objeto: Organizo los turnos de un médico. Permito visualizar disponibilidad y asignar turnos nuevos.Muestro qué días y horarios están disponibles.Me encargo de mantener actualizada la disponibilidad para nuevos turnos,Asigno los turnos a los pacientes.
+
+- Responsabilidades principales: Organizar agenda,Mostrar disponibilidad del médico,modificar o eliminar turnos,Filtrar por día o paciente,Asignar turno
+
+- Colaboradores: Médico, Turno, Paciente
+
+- Propiedad: fecha Inicio , fecha Fin, medicoId, listaTurnos,turno.
+
+[Agenda](https://drive.google.com/file/d/1Xq2qaQsecmaGKN8qrjFQW2WlQQ17b_vo/view?usp=sharing)
 
 
-### CRC Caso5: Consulta de turnos
-
-- Nombre de la clase: Consulta de turnos
-
-- Superclase: Sistema
-
-- Subclase:--
-
-- Pensamiento del objeto: Debo mostrar la agenda sobre los turnos disponibles
-
-- Responsabilidades: Mostrar al usuario los turnos disponibles con su especialidad y medico a cargo
-
-- Colaboradores: pedir turno
-
-- Propiedades: Usuario, medico, turno
-
-  
-![Captura de pantalla (28)](https://github.com/user-attachments/assets/651da0ed-0fa0-46fc-ac3e-db635bec0a8c)
 
 
 
