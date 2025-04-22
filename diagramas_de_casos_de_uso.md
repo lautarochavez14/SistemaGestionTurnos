@@ -6,7 +6,7 @@
 
 ![caso 1](https://github.com/user-attachments/assets/ad580a6a-068e-4bbe-8fa3-32b9df98632d)
 
-[Registrar nuevo paciente](https://drive.google.com/file/d/1OzS91vlzibFSqCST4cweY6po9yJvbWWk/view?usp=sharing)
+[Caso 1](https://drive.google.com/file/d/1OzS91vlzibFSqCST4cweY6po9yJvbWWk/view?usp=sharing)
 
 
 ### Caso 2 : Iniciar sesion
@@ -15,7 +15,7 @@
 
 ![caso 2](https://github.com/user-attachments/assets/b4e010c9-3077-48c6-8191-1f59905706c4)
 
-[Iniciar sesion](https://drive.google.com/file/d/1fTP3sYXFHfQ2LpO9rSaRQBWKEmqhWRGn/view?usp=sharing)
+[Caso 2](https://drive.google.com/file/d/1fTP3sYXFHfQ2LpO9rSaRQBWKEmqhWRGn/view?usp=sharing)
 
 ### Caso 3 : Solicitar turno medico
 
