@@ -1,37 +1,18 @@
 # Diagramas de casos de uso
 
-### Caso1 Notificacion
+### Caso1 : Registrar nuevo paciente
 
-- El sistema notifica la eleccion del turno mandando un mail al usuario.
+- Este caso de uso permite ingresar al sistema los datos personales de un nuevo paciente, como nombre, DNI, contacto y obra social. Es esencial para poder luego asignar turnos médicos y llevar un historial clínico.
 
+![caso 1](https://github.com/user-attachments/assets/ad580a6a-068e-4bbe-8fa3-32b9df98632d)
 
-
-[Caso 1](https://drive.google.com/file/d/1Nd5PRd0QcMnkEs2gt72d_Dph5VXqmWP1/view?usp=sharing)
-
-### Caso 2: Cambio de turno
-
-- El usuario interactua con el sistema de gestion para cambiar la fecha del turno medico.
+[Registrar nuevo paciente](https://drive.google.com/file/d/1OzS91vlzibFSqCST4cweY6po9yJvbWWk/view?usp=sharing)
 
 
-[Caso 2](https://drive.google.com/file/d/1TrL8PJoK3T2zCxXyYIBYwTrN-qchiu_O/view?usp=sharing)
+### Caso 2 : Iniciar sesion
 
-### Caso 3: Cancelacion de turno
+ - Permite a los usuarios registrados acceder al sistema utilizando sus credenciales, para utilizar las funciones correspondientes a su perfil (pedir turno, consultar agenda, etc.)
 
-- El usuario solicita al sistema cancelar el turno programado.
+![caso 2](https://github.com/user-attachments/assets/b4e010c9-3077-48c6-8191-1f59905706c4)
 
-
-[Caso 3](https://drive.google.com/file/d/1wbX7jDbjsjvE0gKo-tk1R_HOzColqtuC/view?usp=sharing)
-
-### Caso 4: Pedir turno 
-
-- El usuario usa de mediador al sistema de gestion de datos para acordar un turno con su medico.
-
-
-[Caso 4](https://drive.google.com/file/d/1TpvV5n4UW4aIbstco9GTMB1ms3MavY9d/view?usp=sharing)
-
-### Caso 5: Consulta de turnos
-
-- El usuario navega por el sistema mientras este le muestra informacion sobre las posibles fechas para su turno.
-  
-
-[Caso 5](https://drive.google.com/file/d/1nqOttiwfdONG-leJc0mmtrf7cD0uGnsl/view?usp=sharing)
+[Iniciar sesion](
