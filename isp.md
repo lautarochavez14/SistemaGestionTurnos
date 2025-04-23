@@ -1,4 +1,4 @@
-# Principio de Segregacion de Interfaces
+# Principio de Segregacion de Interfaces (ISP)
 
  - El Principio de Segregación de Interfaces (ISP) se refiere a la idea de que una clase no debe estar obligada a implementar interfaces que no utiliza. Es decir, si una clase implementa una interfaz, solo debe hacerlo para los métodos que realmente necesita. Si una interfaz tiene métodos que una clase no va a usar, es mejor dividir esa interfaz en varias más pequeñas y específicas.
    - El tipo del principio SOLID al que pertenece el ISP es un principio de diseño de interfaces. Ayuda a estructurar interfaces que sean lo más específicas posible, evitando que las clases implementen métodos que no les interesan.
@@ -21,6 +21,7 @@
   ### Ejemplo
 
    - Un ejemplo pdrian ser los estudiantes en la sociedad, se dividen en especialidades para en un futuro cumplir un rol.
+     
 
      
 
