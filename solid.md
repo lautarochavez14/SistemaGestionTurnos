@@ -7,3 +7,5 @@
   - [Abierto/Cerrado(OCP)](ocp.md)
 
   - [Sustitucion de Liskov (LSP)](lsp.md)
+
+  - [Principio de Segregacion de Interfaces](isp.md)
