@@ -8,4 +8,4 @@
 
   - [Sustitucion de Liskov (LSP)](lsp.md)
 
-  - [Principio de Segregacion de Interfaces](isp.md)
+  - [Principio de Segregacion de Interfaces (ISP)](isp.md)
