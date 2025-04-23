@@ -27,5 +27,7 @@
   
 ![ISP](https://github.com/user-attachments/assets/5b758f09-2ef4-463d-8787-5487d46c9d01)
 
+[Estructurad de clases](https://drive.google.com/file/d/1FqwRzv6Y5d9YcW9JIz0K9WVu3_RiaGer/view?usp=sharing)
+
      
 
