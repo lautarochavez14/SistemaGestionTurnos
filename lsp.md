@@ -19,5 +19,7 @@ La solución consistió en redefinir de manera precisa qué acciones podía llev
 
 ![lsp](https://github.com/user-attachments/assets/fa2a4ebb-36e0-45ea-a81f-5f34c12522d1)
 
+[Estructura de clases](https://drive.google.com/file/d/1IQz6b4F52KNh8vOaMZjCxVGa4RseJS4s/view?usp=sharing)
+
 
    
