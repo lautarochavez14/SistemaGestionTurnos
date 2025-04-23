@@ -21,7 +21,11 @@
   ### Ejemplo
 
    - Un ejemplo pdrian ser los estudiantes en la sociedad, se dividen en especialidades para en un futuro cumplir un rol.
-     
+
+  ## Estructura de clases
+
+  
+![ISP](https://github.com/user-attachments/assets/5b758f09-2ef4-463d-8787-5487d46c9d01)
 
      
 
