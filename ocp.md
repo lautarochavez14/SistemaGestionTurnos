@@ -26,7 +26,7 @@ Puedes agregar nuevos aparatos fácilmente (abiertos a extensión).
 
 ![OCP](https://github.com/user-attachments/assets/17b1197c-22a5-4f18-becf-f7d6732bc5f2)
 
-
+[Estructura de clases](https://drive.google.com/file/d/1ouQ0WHXVj23v6lTY2etp5T7seG8u7Lgl/view?usp=sharing)
 
 
 
