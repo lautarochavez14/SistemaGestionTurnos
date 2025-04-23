@@ -10,21 +10,20 @@ En el contexto de un sistema para organizar citas médicas, se detectaron módul
 
 - Imagina una empresa que realiza envíos de paquetes, y tiene una aplicación para gestionar las entregas. En esta aplicación hay una sola clase llamada GestorEnvios, y hace de todo:
 
-- Crea el pedido de envío.
+   - Crea el pedido de envío.
 
-- Calcula el costo del envío según distancia y peso.
+   - Calcula el costo del envío según distancia y peso.
 
-- Genera la etiqueta del paquete.
+   - Genera la etiqueta del paquete.
 
-- Contacta al repartidor.
+   - Contacta al repartidor.
 
-- Notifica al cliente con el estado del pedido.
+   - Notifica al cliente con el estado del pedido.
 
-- Almacena los datos del envío en la base de datos.
+   - Almacena los datos del envío en la base de datos.
+  
 
-### Problema
-
- - Al tener múltiples funciones dentro de una sola clase:
+- Al tener múltiples funciones dentro de una sola clase:
 
    - Cada vez que se modifica la forma de calcular el costo, hay que revisar toda la clase.
 
