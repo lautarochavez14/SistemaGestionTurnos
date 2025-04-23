@@ -21,6 +21,9 @@
 
 - Propiedad: Nombre, apellido, fechaNacimiento, DNI, direccion,telefono,email.
 
+  ![crc 1](https://github.com/user-attachments/assets/5b018610-0138-40ce-b189-697e8c74c805)
+
+
 [Paciente](https://drive.google.com/file/d/1dBI_MhTWrXPuv7pfWTipTFa4K3bT7Woq/view?usp=sharing)
 
 ### Tarjeta CRC Medico
@@ -41,6 +44,9 @@
 
 - Nombre, Apellido, especialidad, matricula, Horarios de Atencion
 
+  ![crc 2](https://github.com/user-attachments/assets/3b0c48b9-8a3c-42aa-893a-042c0581406d)
+
+
 [Medico](https://drive.google.com/file/d/1AuIMTf8kd3Op3kBHrJlsjSicwsYhGy0D/view?usp=sharing)
 
 
@@ -59,6 +65,9 @@
 - Colaboradores: Paciente ,Turno , Agenda, Médico , recepcionista
 
 - Propiedad:Nombre , apellido, dni , email ,telefono , direccion
+- 
+![crc 3](https://github.com/user-attachments/assets/fd5139cc-ae05-4bf7-aa7d-b8d97b6235c6)
+
 
 [Rcepcionista](https://drive.google.com/file/d/1bVrFrsV4KK9_MvGskRWXPKmcvkD1dNnq/view?usp=sharing)
 
@@ -80,6 +89,9 @@
 
 - Propiedad: fecha, hora, estado, paciente,motivo de cancelacion.
 
+  ![crc 4](https://github.com/user-attachments/assets/1d4f7ef9-a9b3-4429-a373-bb84a4d3277a)
+
+
 [Turno](https://drive.google.com/file/d/1e1W_-2se2xHq4II7pJSPXqRBKJejI8Yu/view?usp=sharing)
 
 
@@ -99,6 +111,9 @@
 - Colaboradores: Médico, Turno, Paciente
 
 - Propiedad: fecha Inicio , fecha Fin, medicoId, listaTurnos,turno.
+
+  ![crc 5](https://github.com/user-attachments/assets/01485435-d8d0-43fc-965f-25e8b0c6ccce)
+
 
 [Agenda](https://drive.google.com/file/d/1Xq2qaQsecmaGKN8qrjFQW2WlQQ17b_vo/view?usp=sharing)
 
