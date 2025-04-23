@@ -4,4 +4,4 @@
 
   - [Responsabilidad Única (SRP)](srp.md)
  
-  - 
+  - [Abierto/Cerrado(OCP)](ocp.md)
