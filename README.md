@@ -13,7 +13,7 @@
 
 # Diagramas y diseños
 
-- [Anexos](introduccion.md)
+- [Anexo - Introducción al Diseño Orientado a Objetos](introduccion.md)
 
 - [Diagramas UML](DiagramasUML.md)
 
