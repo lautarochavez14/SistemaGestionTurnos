@@ -5,3 +5,5 @@
   - [Responsabilidad Única (SRP)](srp.md)
  
   - [Abierto/Cerrado(OCP)](ocp.md)
+
+  - [Sustitucion de Liskov (LSP)](lsp.md)
