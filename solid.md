@@ -9,3 +9,5 @@
   - [Sustitucion de Liskov (LSP)](lsp.md)
 
   - [Principio de Segregacion de Interfaces (ISP)](isp.md)
+ 
+  - [Principio de Inversion de Dependencias(DIP)](dip.md)
