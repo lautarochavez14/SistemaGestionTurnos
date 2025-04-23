@@ -22,5 +22,10 @@ Los enchufes no se modifican (cerrados a cambios).
 
 Puedes agregar nuevos aparatos fácilmente (abiertos a extensión).
 
+![OCP](https://github.com/user-attachments/assets/17b1197c-22a5-4f18-becf-f7d6732bc5f2)
+
+
+
+
 
 
