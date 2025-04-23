@@ -14,4 +14,10 @@ La solución consistió en redefinir de manera precisa qué acciones podía llev
 
  - Como ejemplo tomaremos el un auto y una bicicleta, los dos sirven para moverse pero sus caracteristicas son muy distintas.
 
+
+## Estructura de clases
+
+![lsp](https://github.com/user-attachments/assets/fa2a4ebb-36e0-45ea-a81f-5f34c12522d1)
+
+
    
