@@ -17,11 +17,8 @@
 
    - Si se actualiza el formato de las notificaciones, se corre el riesgo de romper la lógica de asignación de repartidores.
 
-   - Se vuelve difícil probar partes del sistema por separado.
+   - El código se vuelve frágil y difícil de actualzar si en el futuro se quiere cambiar el sistema de mensajería.
 
-   - El código se vuelve frágil y difícil de escalar si en el futuro se quiere cambiar el sistema de mensajería, por ejemplo.
-
-   - El Principio de Responsabilidad Única sugiere dividir responsabilidades en clases diferentes:
 
 
 # Estructura de clases
