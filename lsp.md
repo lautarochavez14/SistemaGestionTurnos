@@ -12,7 +12,7 @@ La solución consistió en redefinir de manera precisa qué acciones podía llev
 
 ### Ejemplo
 
- - Como ejemplo tomaremos el un auto y una bicicleta, los dos sirven para moverse pero sus caracteristicas son muy distintas.
+ - Como ejemplo tomaremos un auto y una bicicleta, los dos sirven para moverse pero sus caracteristicas son muy distintas.
 
 
 ## Estructura de clases
