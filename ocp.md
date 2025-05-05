@@ -1,4 +1,4 @@
-# Principio de Abierto/Cerrado (OCP)
+# Principio de Abierto-Cerrado (OCP)
 
 - El propósito central del Principio de Abierto/Cerrado es permitir que el software pueda ampliarse con nuevas funciones sin tener que alterar el código que ya existe. En el sistema utilizado para administrar los turnos médicos, la parte encargada de enviar notificaciones estaba construida de forma inflexible. Toda la lógica relacionada con el envío de correos electrónicos, mensajes de texto o llamadas telefónicas se encontraba en una única estructura. Cada vez que era necesario incorporar un nuevo medio de notificación (como WhatsApp o alertas en dispositivos móviles), se debía modificar directamente ese código, lo que provocaba errores, afectaba funcionalidades previas y dificultaba el mantenimiento general del sistema.
 
