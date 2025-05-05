@@ -1,7 +1,7 @@
 # Diagramas de casos de uso
 
 
-- [Registrar nuevo paciente](https://drive.google.com/file/d/1OzS91vlzibFSqCST4cweY6po9yJvbWWk/view?usp=sharing)
+- [Registrar nuevo paciente](https://drive.google.com/file/d/1Pr6RLneRtsTJHJOWW4ybGo9AGDaV0r_Z/view?usp=sharing)
   
 
 - [Inicio de sesion](https://drive.google.com/file/d/1fTP3sYXFHfQ2LpO9rSaRQBWKEmqhWRGn/view?usp=sharing)
