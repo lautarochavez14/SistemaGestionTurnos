@@ -7,7 +7,7 @@
 - [Inicio de sesion](https://drive.google.com/file/d/1XroF2CTYCVz__lxIDVvz1YvrjicIL9tP/view?usp=sharing)
   
 
-- [Solicitar turno medico](https://drive.google.com/file/d/1uTQckrpAYz5R4c4po9ULaE7DuQMjXcti/view?usp=sharing)
+- [Solicitar turno medico](https://drive.google.com/file/d/1UCedMwFl7av4MUPPBF5JgwF0hFhEVAYs/view?usp=sharing)
 
 
 - [Cancelar turno](https://drive.google.com/file/d/1gYho2v-bYQ50SSJzbul6hvI1KXwBVfEm/view?usp=sharing)
