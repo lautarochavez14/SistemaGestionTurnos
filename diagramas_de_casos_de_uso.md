@@ -10,7 +10,7 @@
 - [Solicitar turno medico](https://drive.google.com/file/d/1UCedMwFl7av4MUPPBF5JgwF0hFhEVAYs/view?usp=sharing)
 
 
-- [Cancelar turno](https://drive.google.com/file/d/1gYho2v-bYQ50SSJzbul6hvI1KXwBVfEm/view?usp=sharing)
+- [Cancelar turno](https://drive.google.com/file/d/1IwxQ66ct3goozAP65Fi2efd1acAttNMx/view?usp=sharing)
 
 
 - [Registros medicos](https://drive.google.com/file/d/13tQHHOuSqf7hEveBbdJIaQ_8eDEp35XN/view?usp=sharing)
