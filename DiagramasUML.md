@@ -5,4 +5,4 @@
 
 - [Escenarios de casos de uso](escenarios_de_casos_de_usos.md)
 
-- [Diagramas de actividade]( diagramas_de_actividades.md )
+- [Diagramas de actividades]( diagramas_de_actividades.md )
