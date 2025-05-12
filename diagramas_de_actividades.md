@@ -7,3 +7,5 @@
 - [Diagrama de actividad-Cambio de turno](https://drive.google.com/file/d/1wUCbNvIqNX2UncHn_26bo02VXZMRlnEF/view?usp=sharing)
 
 - [Diagrama de actividad-Cancelacion de turno](https://drive.google.com/file/d/1utgRKPTOvJtYzAJQOaqwzLXJUnZ0EElQ/view?usp=sharing)
+
+- [Diagrama de actividad-Consulta de turnos](https://drive.google.com/file/d/1k5169hBUxaWt9nbTL4Oao8l0oqdmA4US/view?usp=sharing)
