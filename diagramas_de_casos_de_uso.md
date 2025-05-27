@@ -13,7 +13,7 @@
 - [Cancelar turno](https://drive.google.com/file/d/1IwxQ66ct3goozAP65Fi2efd1acAttNMx/view?usp=sharing)
 
 
-- [Registros medicos](https://drive.google.com/file/d/1ClhJzwoWdIH8pEyWVCMpHNemJEBAXC2j/view?usp=sharing)
+- [Consulta de turnos](https://drive.google.com/file/d/1ClhJzwoWdIH8pEyWVCMpHNemJEBAXC2j/view?usp=sharing)
 
 
 
