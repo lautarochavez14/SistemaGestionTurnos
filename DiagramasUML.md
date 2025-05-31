@@ -8,3 +8,5 @@
 - [Diagramas de actividades]( diagramas_de_actividades.md )
 
 - [Diagramas de secuencia](diagramas_de_secuencias.md)
+
+- [Diagrama de clases]
