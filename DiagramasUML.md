@@ -9,4 +9,4 @@
 
 - [Diagramas de secuencia](diagramas_de_secuencias.md)
 
-- [Diagrama de clases]
+- [Diagrama de clases](https://drive.google.com/file/d/1H4zdwffuWI3sq7Zg944WdbmccjZTvwgI/view?usp=sharing)
