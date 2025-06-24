@@ -5,3 +5,5 @@
 - [Anexo - Principios SOLID](solid.md)
 
 - [Anexo - Aplicación de Patrón de Diseño creacional - NombrePatrónElegido ](PatronDeDisenoCreacional.md)
+
+- [Anexo - Aplicación de Patrón de Diseño estructural - Nombre](PatronDeDisenoEstructural.md)
