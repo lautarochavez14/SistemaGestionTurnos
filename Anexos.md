@@ -7,3 +7,5 @@
 - [Anexo - Aplicación de Patrón de Diseño creacional - NombrePatrónElegido ](PatronDeDisenoCreacional.md)
 
 - [Anexo - Aplicación de Patrón de Diseño estructural - Nombre](PatronDeDisenoEstructural.md)
+
+- [Anexo - Aplicacion de Patron de Diseño estructural - Nombre](PatronDeDisenoDeComportamiento.md)
