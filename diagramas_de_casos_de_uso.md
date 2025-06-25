@@ -1,10 +1,10 @@
  # Diagramas de casos de uso
 
 
-- [Registrar nuevo paciente](https://drive.google.com/file/d/1Pr6RLneRtsTJHJOWW4ybGo9AGDaV0r_Z/view?usp=sharing)
+- [Notificacion]()
   
 
-- [Inicio de sesion](https://drive.google.com/file/d/1XroF2CTYCVz__lxIDVvz1YvrjicIL9tP/view?usp=sharing)
+- [Cambio de turno]()
   
 
 - [Pedir turno](https://drive.google.com/file/d/1UCedMwFl7av4MUPPBF5JgwF0hFhEVAYs/view?usp=sharing)
