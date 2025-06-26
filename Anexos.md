@@ -8,4 +8,4 @@
 
 - [Anexo - Aplicación de Patrón de Diseño estructural - Adapter](PatronDeDisenoEstructural.md)
 
-- [Anexo - Aplicacion de Patron de Diseño estructural - Nombre](PatronDeDisenoDeComportamiento.md)
+- [Anexo - Aplicacion de Patron de Diseño estructural - Observer](PatronDeDisenoDeComportamiento.md)
